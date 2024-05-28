@@ -127,6 +127,14 @@ input{
 	padding: 26px 42px;
 	margin: 10px;
 }
+
+.skills .ph{
+	color: black;
+	border: 1px solid black;
+	background-color: midnightblue;
+	padding: 26px 42px;
+	margin: 10px;
+}
 .skills{
 	gap: 50px;
 }
@@ -141,6 +149,10 @@ input{
 
 .skills .bttn .js{
 	background-color: hotpink;
+}
+
+.skills .bttn .ph{
+	background-color: darkred;
 }
 .display{
     display: flex;
@@ -159,7 +171,6 @@ input{
   background-color: skyblue;
   padding: 20px;
 
-
 }
 
 .box2{
@@ -168,7 +179,6 @@ input{
   border: 1px solid blue;
 background-color:pink ;
 padding: 20px;
-
 
 }
 
@@ -189,8 +199,6 @@ padding: 20px;
   border: 1px solid blue;
 background-color:orange ;
 padding: 20px;
-
-
  
 }
 
@@ -214,10 +222,6 @@ h1{
 text-align: center;
 }
 
-.about{
-	text-align: center;
-}
-
 .box5{
     display: flex;
     padding: 20px 350px;
@@ -226,5 +230,51 @@ text-align: center;
   margin: 5px;
 
 }
+/*home*/
+#Home{
+	padding: 80px;
+	display: flex;
+	gap: 300px;
+}
+.home{
+	
+	
+	
+}
+.image img{
+	height: 400px;
+	width: 300px;
+}
+
+.about{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	border: 1px solid white;
+	background-color: mintcream;
+
+}
+
+#aboutme{
+	text-align: center;
+
+}
+
+section .left i{
+	padding: 20px;
+}
+
+.skill{
+	justify-content: space-evenly;
+	display: flex;
+	border: 1px solid whitesmoke;
+}
+
+
+
+
+
+
 
 
